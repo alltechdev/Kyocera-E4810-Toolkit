@@ -1,3 +1,7 @@
+# Disclaimer
+
+I WILL NOT BE HELD RESPONSIBLE FOR BRICKED DEVICES OR YOUR INSANITY WHILE YOU GO THROUGH THIS PROCESS. DO NOT ASK ME TO UNBRICK YOUR DEVICE. I WILL SAY NO. MINIMAL SUPPORT WILL BE GIVEN IN GENERAL FOR THE CONTENTS OF THIS REPO.
+
 # Kyocera E4810 Toolkit
 
 Root Kyocera E4810 with Magisk and re-sign all system APKs with custom keys, while maintaining locked bootloader and AVB chain integrity.
