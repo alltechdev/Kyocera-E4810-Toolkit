@@ -1,0 +1,20 @@
+Settings Modification Log
+=========================
+
+Source: system/priv-app/Settings/Settings.apk
+Output: Settings_signed.apk (after you sign it)
+
+Modifications:
+--------------
+
+1. Block Developer Options
+--------------------------
+File: smali/com/android/settings/deviceinfo/BuildNumberPreferenceController.smali
+
+Change: Modified onResume() to always set mDevHitCountdown to -1 instead of 7.
+
+Behavior: Tapping build number 7 times no longer enables developer options.
+
+Signing:
+--------
+Sign with platform key before installing (see ../README.md)

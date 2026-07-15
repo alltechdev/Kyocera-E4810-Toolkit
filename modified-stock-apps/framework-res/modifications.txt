@@ -1,0 +1,18 @@
+framework-res Modification Log
+===============================
+
+Source: system/framework/framework-res.apk
+Output: framework-res_modified.apk
+
+Modifications:
+--------------
+
+1. Hide System Update USB Mode
+------------------------------
+File: resources.arsc
+
+Change: Replaced string "USB mode - System Update" with blank spaces
+
+Behavior: The System Update USB mode option now appears blank/empty, effectively hiding its label.
+
+Note: This APK is unsigned - needs platform key to work on device.
